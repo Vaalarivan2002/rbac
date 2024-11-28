@@ -6,9 +6,9 @@ Roles:
 * Moderator
 
 Available routes:
-* POST localhost:3000/auth/login                -> need username, password, role fields in the body of the request
-* POST localhost:3000/auth/register             -> need username, password, role fields in the body of the request
-* POST localhost:3000/auth/logout               -> need username field in the body of the request
+* POST localhost:3000/auth/login                -> needs username, password, role fields in the body of the request
+* POST localhost:3000/auth/register             -> needs username, password, role fields in the body of the request
+* POST localhost:3000/auth/logout               -> needs username field in the body of the request
 * GET localhost:3000/users/user                 -> only users are allowed in this route
 * GET localhost:3000/users/admin                -> only admins are allowed in this route
 * GET localhost:3000/users/moderator            -> only moderators are allowed in this route
